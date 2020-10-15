@@ -1,0 +1,430 @@
+/*初始化*/
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+input, textarea {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.fr {
+	float: right;
+}
+
+.fl {
+	float: left;
+}
+
+ul,ol {
+	list-style-type: none;
+}
+
+body {
+	background-color: rgba(243,245,247,1.0);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+/*头部*/
+
+.header {
+	height: 100px;
+
+	min-width: 100%;
+	overflow: hidden;
+}
+
+.logo img {
+	width: 195px;
+	height: 42px;
+	vertical-align: middle;
+	margin-left: 30px;
+	margin-top: 29px;
+}
+
+.nav ul {
+	margin-left: 50px;
+
+}
+
+.nav li {
+	float: left;
+	margin: 30px 0px;
+	height: 42px;
+	line-height: 42px;
+
+}
+
+.nav a  {
+	display: block;
+	padding: 0px 10px;
+}
+ 
+.nav a:hover {
+	border-bottom: 2px solid rgb(67,164,267);
+}
+
+
+.my {
+	margin-right: 50px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.my img {
+	vertical-align: middle;
+	margin: 0px 5px;
+}
+
+.my img:first-child {
+	margin-top: -4px;
+}
+
+.search {
+	height: 100px;
+	line-height: 100px;
+	margin-right: 50px;
+}
+
+.search input {
+	/*outline: 1px solid rgb(67,164,267);*/
+	border: 1px solid rgb(67,164,267);
+	width: 360px;
+	height: 40px;
+	text-indent: 20px;
+	font-size: 16px;
+}
+
+.search input:focus { 
+	border: 2px solid blue;
+	border-radius: 3px;
+}
+
+.search div {
+	display: inline-block;
+	background-color: rgb(67,164,267);
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	margin-left: -5px;
+	border-bottom: 2px solid rgb(67,164,267);
+	text-align: center;
+}
+
+.search img {
+	vertical-align: middle;
+
+
+}
+
+
+/*中部*/
+
+.middle .top {
+	height: 420px;
+	background-color: #1c036c;
+	
+}
+
+.middle .container {
+	background: url(images/banner_03.png) no-repeat 0 0;
+	height: inherit;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+.container-left {
+	width: 190px;
+	height: inherit;
+	background-color: rgba(0,0,0,0.2);
+	
+}
+
+.container-left li {
+	color: white;
+	height: 46px;
+	line-height: 46px;
+	padding-left: 20px;
+}
+
+.container-left ul a{
+	color: white;
+	font-size: 15px;
+	float: left;
+}
+
+.container-left ul span {
+	float: right;
+	padding-right: 20px;
+}
+
+
+
+.container-right {
+	width: 230px;
+	height: 310px;
+	background-color: white;
+	margin-top: 50px;
+}
+
+.container-right-top {
+	height: 50px;
+	background-color: rgb(165,205,231);
+	color: white;
+	line-height: 50px;
+	text-align: center;
+}
+
+.container-right  li {
+	height: 65px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.container-right li span {
+	margin-top: 5px ;
+	margin-bottom: 5px;
+	display: block;
+	font-size: 13px;
+	color: gray;
+}
+
+.container-right li hr {
+	margin-right: 15px;
+}
+
+.container-right .button{
+	width: 190px;
+	height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+
+}
+.container-right .button a{
+	display: block;
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid rgb(67,164,267);
+	text-align: center;
+	font-weight: 700;
+	color: rgb(67,164,267);
+}
+
+.container-right .button a:hover {
+	background-color: rgb(67,164,267);
+	color: white;
+}
+
+.container-center {
+	
+	width: 250px;
+	height: 40px;
+	position: absolute;
+	bottom: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.container-center ul {
+	width: 155px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.container-center li {
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 10px 15px 10px 0px;	
+}
+
+.container-center li:first-child {
+	width: 20px;
+}
+
+.container-center li:last-child {
+	margin-right: 0px;
+}
+
+.container-center li a {
+	display: block;
+	width: inherit;
+	height: inherit;
+	background-color: rgba(240,240,240,0.3);
+	border-radius: 10px;
+}
+
+.container-center li:first-child a {
+	background-color: white;
+}
+
+
+
+.middle .middle-tuijian {
+	height: 60px;
+	background-color: whiye;
+	box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+	margin-top: 20px;
+
+}
+
+.middle-tuijian ul {
+	height: 60px;
+	line-height: 60px;
+}
+
+.middle-tuijian ul li {
+	float: left;
+	
+}
+
+.middle-tuijian ul li:first-child {
+	padding-left: 20px;
+	
+	
+}
+
+.middle-tuijian ul li:first-child a {
+	color: rgb(67,164,267);
+}
+
+.middle-tuijian li.line {
+	padding: 0 25px; 
+	/*padding-left: 25px;
+	padding-right: 25px;*/
+}
+
+.middle-tuijian-setting {
+	height: 60px;
+	line-height: 60px;
+	padding-right: 30px;
+}
+
+.middle-tuijian-setting a{
+	color: rgb(67,164,267);
+}
+
+.middle .middle-jingping {
+	height: 650px;
+}
+
+.middle-jingping-bottom {
+	height: 570px;
+}
+
+.middle-jingping-bottom ul {
+
+}
+
+.middle-jingping-bottom li {
+	width: 228px;
+	height: 270px;
+	background-color: white;
+	float: left;
+	margin-right: 15px; 
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.middle-jingping-bottom li:hover {
+	margin-top: -10px;
+	box-shadow: 0px 10px 5px 5px rgba(0,0,0,0.2);
+}
+
+.middle-jingping-bottom .title, .middle-jingping-bottom .content,.middle-jingping-bottom .other{
+	font-size: 14px;
+	margin-top: 40px;
+	padding-left: 20px;
+
+}
+.middle-jingping-bottom .content {
+	margin-top: 5px;
+}
+
+.middle-jingping-bottom .other {
+	font-size: 12px;
+	margin-top: 20px;
+	color: gray;
+}
+
+
+
+.middle-jingping-bottom .other span {
+	color: rgba(239,130,67);
+}
+
+.middle-jingping-bottom .hot {
+	position: absolute;
+	top: 10px;
+	right: -3px;
+	width: 45px;
+	height: 27px;
+	/*background-color: red;*/
+	background-image: url(images/sprite.png);
+
+	background-position: 0px -84px;
+}
+/*尾部*/
+
+.footer {
+	background-color: white;
+	height: 270px;
+}
+
+.footer img {
+	margin-top: 30px;
+}
+
+.footer p {
+	margin: 20px 0px;
+	font-size: 12px;
+	color: rgb(157,157,157);
+}
+
+.footer .fl a {
+	display: inline-block;
+	width: 118px;
+	height: 30px;
+	border: 1px solid rgb(67,164,267);
+	text-align: center;
+	line-height: 30px;
+	color: rgb(67,164,267);
+}
+
+
+.footer .fr ul {
+	float: right;
+	margin: 30px 140px 0px 0px;
+}
+
+.footer .fr ul li {
+	margin-bottom: 5px;
+	font-size: 12px;
+}
+
+.footer .fr ul li:first-child {
+	font-size: 16px;
+	margin-bottom: 8px;
+}
+
+.footer .fr a:hover {
+	color: rgb(67,164,267);
+	text-decoration: underline;
+}
